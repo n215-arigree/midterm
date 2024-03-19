@@ -1,0 +1,39 @@
+.blog {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  flex-direction: row;
+  .imgContain {
+    width: 50%;
+    height: 100%;
+    background-color: #707070;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    .img {
+        width: 536px;
+        height: 359px;
+        border: 3px solid #471F00;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  }
+  .text {
+    margin: 50px;
+    width: 50%;
+    h1 {
+        font-size: 32px;
+        color: black;
+    font-family: Arial;
+    padding-bottom: 40px;
+    }
+    p {
+        font-size: 16px;
+        color: black;
+    font-family: Arial;
+    padding-bottom: 40px;
+    }
+  }
+}
